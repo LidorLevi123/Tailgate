@@ -1,0 +1,11 @@
+.main-content {
+    background-color: var(--clrPrimary1);
+    padding-block-start: 1.25rem;
+}
+
+.main-content .content-layout {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 2fr 1fr;
+    padding-inline: 15px;
+}

@@ -35,3 +35,7 @@ button {
     cursor: pointer;
     padding: 0;
 }
+
+img {
+    width: 100%;
+}
