@@ -7,6 +7,6 @@
 .main-content .content-layout {
     display: grid;
     column-gap: 30px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 300px;
     padding-inline: 15px;
 }

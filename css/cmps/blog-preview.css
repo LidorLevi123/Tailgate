@@ -14,11 +14,13 @@
 
 .blog-preview .blog-img {
     grid-area: img;
+    cursor: pointer;
 }
 
 .blog-preview .title {
     grid-area: title;
     letter-spacing: -0.00625rem;
+    cursor: pointer;
 }
 
 .blog-preview .user {
