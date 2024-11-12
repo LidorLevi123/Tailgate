@@ -1,0 +1,64 @@
+.blog-preview {
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 278px auto 2fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 
+        "img title title"
+        "img user comments";
+    background-color: var(--clrPrimary2);
+    padding: 18px;
+    border: 2px solid var(--clrPrimary3);
+    border-bottom-width: 1px;
+}
+
+.blog-preview .blog-img {
+    grid-area: img;
+}
+
+.blog-preview .title {
+    grid-area: title;
+    letter-spacing: -0.00625rem;
+}
+
+.blog-preview .user {
+    grid-area: user;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 0.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.00625rem;
+    cursor: pointer;
+}
+
+.blog-preview .user .posted-at{
+    font-style: italic;
+    color: rgb(115, 115, 115);
+}
+
+.blog-preview .comments {
+    grid-area: comments;
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.blog-preview .user img {
+    grid-row: 1 / -1;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-preview .comments {
+    place-self: end;
+}
+
+.blog-preview .comments .svg-icon {
+    width: 31px;
+}
