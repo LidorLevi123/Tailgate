@@ -1,5 +1,6 @@
 :root {
     /* colors */
+    --clrPrimary3: #f1f1f1;
     --clrPrimary2: #ffffff;
     --clrPrimary1: #f5f5f5;
     --clrPrimaryBase: #222222;
@@ -9,4 +10,7 @@
     /* fonts */
     --fontPrimary: Helvetica Neue, Helvetica, -apple-system, Segoe UI, Arial, sans-serif;
     --fontSecondary: bebas;
+
+    /* other */
+    --headerHeight: 75px;
 }

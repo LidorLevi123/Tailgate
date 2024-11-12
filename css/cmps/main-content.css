@@ -1,6 +1,7 @@
 .main-content {
     background-color: var(--clrPrimary1);
     padding-block-start: 1.25rem;
+    min-height: calc(100vh - var(--headerHeight));
 }
 
 .main-content .content-layout {
