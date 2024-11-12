@@ -1,0 +1,51 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    margin-block-end: 1.25rem;
+}
+
+.main-header .logo {
+    width: 120px;
+}
+
+.main-header .main-nav {
+    display: flex;
+    gap: 1.625rem;
+    font-family: var(--fontSecondary);
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.main-header .main-nav > * {
+    letter-spacing: 0.025rem;
+}
+
+.main-header .main-nav > *:hover {
+    color: var(--clrSecondary1);
+}
+
+.main-header .actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-header .actions > * {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.main-header .actions .svg-icon {
+    width: 20px;
+}
+
+.main-header .actions > * span{
+    font-size: 0.625rem;
+    color: var(--clrPrimaryBase);
+}

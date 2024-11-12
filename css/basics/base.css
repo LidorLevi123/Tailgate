@@ -4,7 +4,7 @@
 
 html {
     color: var(--clrPrimaryBase);
-    font-family: lato, sans-serif;
+    font-family: var(--fontPrimary);
 }
 
 body, p {
@@ -27,7 +27,7 @@ ul {
 }
 
 a {
-    color: var(--clrPrimary4);
+    color: inherit;
     text-decoration: none;
 }
 
