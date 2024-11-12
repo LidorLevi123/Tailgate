@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--clrPrimaryBase);
+    font-family: lato, sans-serif;
+}
+
+body, p {
+    margin: 0;
+}
+
+h2 {
+    color: var(--clrPrimary-1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--clrPrimary4);
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+}
