@@ -8,4 +8,8 @@
     --clrPrimary-1: #4F4E4E;
     --clrPrimary-2: #292929;
     --clrPrimary-3: #1d1d1d;
+
+    /* fonts */
+    --fontPrimary: Helvetica Neue, Helvetica, -apple-system, Segoe UI, Arial, sans-serif;
+    --fontSecondary: bebas;
 }
