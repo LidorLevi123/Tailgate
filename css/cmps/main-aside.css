@@ -1,23 +1,31 @@
-.main-aside > * {
-    border: 2px solid var(--clrPrimary3);
+.main-aside {
+    display: grid;
+    align-content: start;
+    gap: 10px;
 }
 
-.main-aside .more h2 {
-    text-transform: uppercase;
-    font-family: var(--fontSecondary);
-    font-size: 2.25em;
-    color: var(--clrPrimary-1);
-    margin-block-end: 0.75rem;
+.main-aside > * {
+    border: 2px solid var(--clrPrimary3);
 }
 
 .main-aside .more {
     position: sticky;
     top: 0px;
+    background-color: var(--clrPrimary2);
+}
+
+.main-aside .more h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--fontSecondary);
+    font-size: 2.25em;
+    color: var(--clrPrimary-1);
 }
 
 .main-aside .ad-list {
     display: grid;
-    gap: 10px;
+    padding: 0.55rem;
+    gap: 1.5rem;
 }
 
 .main-aside .ad-list .ad-preview {
@@ -25,8 +33,6 @@
     column-gap: 1.25em;
     align-items: center;
     grid-template-columns: 90px 1fr;
-    background-color: var(--clrPrimary2);
-    border: 2px solid var(--clrPrimary3);
 }
 
 .main-aside .ad-list .ad-preview .title {
