@@ -1,0 +1,34 @@
+.main-aside > * {
+    border: 2px solid var(--clrPrimary3);
+}
+
+.main-aside .more h2 {
+    text-transform: uppercase;
+    font-family: var(--fontSecondary);
+    font-size: 2.25em;
+    color: var(--clrPrimary-1);
+    margin-block-end: 0.75rem;
+}
+
+.main-aside .more {
+    position: sticky;
+    top: 0px;
+}
+
+.main-aside .ad-list {
+    display: grid;
+    gap: 10px;
+}
+
+.main-aside .ad-list .ad-preview {
+    display: grid;
+    column-gap: 1.25em;
+    align-items: center;
+    grid-template-columns: 90px 1fr;
+    background-color: var(--clrPrimary2);
+    border: 2px solid var(--clrPrimary3);
+}
+
+.main-aside .ad-list .ad-preview .title {
+    font-size: 1rem;
+}

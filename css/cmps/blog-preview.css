@@ -41,6 +41,7 @@
 
 .blog-preview .comments {
     grid-area: comments;
+    justify-self: end;
     display: flex;
     align-items: center;
     gap: 0.3125rem;
@@ -55,10 +56,6 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-}
-
-.blog-preview .comments {
-    place-self: end;
 }
 
 .blog-preview .comments .svg-icon {
