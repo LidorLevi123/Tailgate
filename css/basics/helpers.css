@@ -15,3 +15,8 @@
 .grid {
     display: grid;
 }
+
+/* routes */
+.current-route {
+    color: var(--clrSecondary1);
+}
