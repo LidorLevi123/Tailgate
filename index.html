@@ -1,18 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>Tailgate</title>
 </head>
-<body class="main-layout dropdown-active">
+
+<body class="main-layout">
+
+    <div class="backdrop hide"></div>
+    <div class="dropdown main-layout full hide" onmouseleave="onCloseDropdown()">
+        <section class="content">
+            <img src="https://chumley.barstoolsports.com/union/2024/09/05/Football.5d6b0549.jpg?crop=896%3A672%2Csmart&format=pjpg&width=384&auto=webp&quality=85%2C75" alt="">
+            <ul>
+                <li>Tailgate brands</li>
+                <li>Tailgate Sports</li>
+                <li>Fore Play</li>
+                <li>Spittin' Chiclets</li>
+                <li>Pardon my take</li>
+                <li>One bite</li>
+                <li>Stella blue coffee</li>
+                <li>PlanBri uncut</li>
+                <li>Bussin' with the boys</li>
+                <li>Tailgate bets</li>
+                <li>nooners</li>
+                <li>KFC Radio</li>
+                <li>All Brands</li>
+            </ul>
+            <ul>
+                <li>Sports</li>
+                <li>Basketball</li>
+                <li>Hockey</li>
+                <li>Golf</li>
+                <li>Baseball</li>
+                <li>Football</li>
+                <li>soccer</li>
+                <li>all sports</li>
+            </ul>
+            <ul>
+                <li>cities</li>
+                <li>chicago</li>
+                <li>boston</li>
+                <li>new york</li>
+                <li>philadelphia</li>
+                <li>miami</li>
+                <li>all cities</li>
+            </ul>
+            <ul>
+                <li>trending</li>
+                <li>new</li>
+                <li>best sellers</li>
+                <li>football season</li>
+                <li>shady rays</li>
+                <li>Tailgate x Muck</li>
+                <li>miss peaches</li>
+                <li>tailgate golf</li>
+                <li>stella blue coffee</li>
+                <li>nooners</li>
+                <li>shirt of the month club</li>
+            </ul>
+        </section>
+    </div>
 
     <header class="main-header">
         <img class="logo" src="/img/logo.png" alt="Logo icon">
         <nav class="main-nav">
             <a href="" class="current-route">Blogs</a>
-            <a href="">Store</a>
+            <a href="" onmouseover="onOpenDropdown()">Store</a>
         </nav>
         <div class="actions">
             <button class="btn-search">
@@ -27,15 +83,18 @@
     </header>
 
     <main class="main-content main-layout full">
-        <div class="backdrop"></div>
         <div class="content-layout">
             <ul class="blog-list">
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png" alt="">
-                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png"
+                            alt="">
+                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game
+                        </h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg"
+                                alt="">
                             <span class="nickname">The Chief</span>
                             <span class="posted-at">5 minutes ago</span>
                         </div>
@@ -47,10 +106,13 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png" alt="">
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png"
+                            alt="">
                         <h2 class="title">Game Notes Countdown To The NHL – #3 Colorado Avalanche</h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png"
+                                alt="">
                             <span class="nickname">Big Z</span>
                             <span class="posted-at">13 minutes ago</span>
                         </div>
@@ -62,8 +124,11 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png" alt="">
-                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png"
+                            alt="">
+                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame
+                            Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
                         <div class="user">
                             <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/johnlecomptbv.jpg" alt="">
                             <span class="nickname">Smithson</span>
@@ -77,10 +142,14 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png" alt="">
-                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png"
+                            alt="">
+                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game
+                        </h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg"
+                                alt="">
                             <span class="nickname">The Chief</span>
                             <span class="posted-at">5 minutes ago</span>
                         </div>
@@ -92,10 +161,13 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png" alt="">
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png"
+                            alt="">
                         <h2 class="title">Game Notes Countdown To The NHL – #3 Colorado Avalanche</h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png"
+                                alt="">
                             <span class="nickname">Big Z</span>
                             <span class="posted-at">13 minutes ago</span>
                         </div>
@@ -107,8 +179,11 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png" alt="">
-                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png"
+                            alt="">
+                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame
+                            Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
                         <div class="user">
                             <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/johnlecomptbv.jpg" alt="">
                             <span class="nickname">Smithson</span>
@@ -122,10 +197,14 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png" alt="">
-                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png"
+                            alt="">
+                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game
+                        </h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg"
+                                alt="">
                             <span class="nickname">The Chief</span>
                             <span class="posted-at">5 minutes ago</span>
                         </div>
@@ -137,10 +216,13 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png" alt="">
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png"
+                            alt="">
                         <h2 class="title">Game Notes Countdown To The NHL – #3 Colorado Avalanche</h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png"
+                                alt="">
                             <span class="nickname">Big Z</span>
                             <span class="posted-at">13 minutes ago</span>
                         </div>
@@ -152,8 +234,11 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png" alt="">
-                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png"
+                            alt="">
+                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame
+                            Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
                         <div class="user">
                             <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/johnlecomptbv.jpg" alt="">
                             <span class="nickname">Smithson</span>
@@ -167,10 +252,14 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png" alt="">
-                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png"
+                            alt="">
+                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game
+                        </h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg"
+                                alt="">
                             <span class="nickname">The Chief</span>
                             <span class="posted-at">5 minutes ago</span>
                         </div>
@@ -182,10 +271,13 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png" alt="">
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png"
+                            alt="">
                         <h2 class="title">Game Notes Countdown To The NHL – #3 Colorado Avalanche</h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png"
+                                alt="">
                             <span class="nickname">Big Z</span>
                             <span class="posted-at">13 minutes ago</span>
                         </div>
@@ -197,8 +289,11 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png" alt="">
-                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png"
+                            alt="">
+                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame
+                            Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
                         <div class="user">
                             <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/johnlecomptbv.jpg" alt="">
                             <span class="nickname">Smithson</span>
@@ -212,10 +307,14 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png" alt="">
-                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/12/2023-12-21_20-23-18.png"
+                            alt="">
+                        <h2 class="title">Apparently Some Footballs Were Under-Inflated During the Patriots-Chiefs Game
+                        </h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/IMG-4765-e1675247191399.jpg"
+                                alt="">
                             <span class="nickname">The Chief</span>
                             <span class="posted-at">5 minutes ago</span>
                         </div>
@@ -227,10 +326,13 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png" alt="">
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-50-10.png"
+                            alt="">
                         <h2 class="title">Game Notes Countdown To The NHL – #3 Colorado Avalanche</h2>
                         <div class="user">
-                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png" alt="">
+                            <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-15_18-23-53.png"
+                                alt="">
                             <span class="nickname">Big Z</span>
                             <span class="posted-at">13 minutes ago</span>
                         </div>
@@ -242,8 +344,11 @@
                 </li>
                 <li>
                     <article class="blog-preview">
-                        <img class="blog-img" src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png" alt="">
-                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
+                        <img class="blog-img"
+                            src="https://tailgatesportsus.com/wp-content/uploads/2023/10/2023-10-09_13-48-14.png"
+                            alt="">
+                        <h2 class="title">“Fuck Him And Fuck Them…Lets Win This Bitch For Hack” – C.J. Uzomah’s Pregame
+                            Speech Confirms What Sean Payton Said About Nathaniel Hackett</h2>
                         <div class="user">
                             <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/johnlecomptbv.jpg" alt="">
                             <span class="nickname">Smithson</span>
@@ -263,31 +368,36 @@
                     <ul class="ad-list">
                         <li>
                             <article class="ad-preview">
-                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-24_15-56-01-600x463.png" alt="">
+                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-24_15-56-01-600x463.png"
+                                    alt="">
                                 <h3 class="title">Some Nutjob Crashed His Car Into His…</h3>
                             </article>
                         </li>
                         <li>
                             <article class="ad-preview">
-                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-11_19-17-15.png" alt="">
+                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-11_19-17-15.png"
+                                    alt="">
                                 <h3 class="title">Don't Tell Me You Never Had That…</h3>
                             </article>
                         </li>
                         <li>
                             <article class="ad-preview">
-                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-05_14-48-53.png" alt="">
+                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/05/2023-05-05_14-48-53.png"
+                                    alt="">
                                 <h3 class="title">Some Nutjob Crashed His Car Into His…</h3>
                             </article>
                         </li>
                         <li>
                             <article class="ad-preview">
-                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/03/2023-03-13_20-44-49.png" alt="">
+                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/03/2023-03-13_20-44-49.png"
+                                    alt="">
                                 <h3 class="title">Rain Of Worms Over China??</h3>
                             </article>
                         </li>
                         <li>
                             <article class="ad-preview">
-                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/2023-02-27_20-10-25.png" alt="">
+                                <img src="https://tailgatesportsus.com/wp-content/uploads/2023/02/2023-02-27_20-10-25.png"
+                                    alt="">
                                 <h3 class="title">Thief Accomplice Sues Lady Gaga After Returning…</h3>
                             </article>
                         </li>
@@ -296,5 +406,18 @@
             </aside>
         </div>
     </main>
+
+    <script>
+        function onOpenDropdown() {
+            document.querySelector('.dropdown').classList.remove('hide')
+            document.querySelector('.backdrop').classList.remove('hide')
+        }
+
+        function onCloseDropdown() {
+            document.querySelector('.dropdown').classList.add('hide')
+            document.querySelector('.backdrop').classList.add('hide')
+        }
+    </script>
 </body>
+
 </html>

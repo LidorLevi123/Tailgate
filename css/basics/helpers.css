@@ -20,3 +20,8 @@
 .current-route {
     color: var(--clrSecondary1);
 }
+
+/* other */
+.hide {
+    display: none;
+}
