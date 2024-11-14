@@ -7,6 +7,10 @@ html {
     font-family: var(--fontPrimary);
 }
 
+body {
+    background-color: var(--clrPrimary1);
+}
+
 body, p {
     margin: 0;
 }

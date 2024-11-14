@@ -4,6 +4,7 @@
         minmax(20px, 1fr)
         minmax(auto, 1170px)
         minmax(20px, 1fr);
+    row-gap: 1.25rem;
 }
 
 .main-layout.full {

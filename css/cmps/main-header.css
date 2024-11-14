@@ -1,8 +1,6 @@
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: var(--headerHeight);
+    background-color: var(--clrPrimary2);
 }
 
 .main-header .logo {
